@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/table2S",
+      "handler": "Table2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/table2S/count",
+      "handler": "Table2.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/table2S/:id",
+      "handler": "Table2.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/table2S",
+      "handler": "Table2.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/table2S/:id",
+      "handler": "Table2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/table2S/:id",
+      "handler": "Table2.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

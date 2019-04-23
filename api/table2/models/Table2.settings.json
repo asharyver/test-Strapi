@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "table2S",
+  "info": {
+    "name": "table2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "fieldString": {
+      "default": "",
+      "type": "string"
+    },
+    "fieldNumber": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}
